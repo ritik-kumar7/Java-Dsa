@@ -1,6 +1,7 @@
-package sorting;
+package Sorting;
 
-public class BubbleSort {
+
+public class BubbleSort{
 
     // Function to print array
     static void printArray(int arr[]) {
@@ -41,7 +42,6 @@ public class BubbleSort {
     // Main function
     public static void main(String[] args) {
         int[] arr = {5, 1, 4, 2, 8};
-
         System.out.println("Original array:");
         printArray(arr);
 
@@ -50,4 +50,7 @@ public class BubbleSort {
         System.out.println("Sorted array:");
         printArray(arr);
     }
+}
+ {
+    
 }
