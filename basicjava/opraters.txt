@@ -1,0 +1,87 @@
+Arithmetic Operators:
++   Addition (a + b)
+-   Subtraction (a - b)
+*   Multiplication (a * b)
+/   Division (a / b)
+%   Modulus (a % b)
+++  Increment (a++)
+--  Decrement (a--)
+
+Assignment Operators:
+=   Assign value (a = b)
++=  Add and assign (a += b)
+-=  Subtract and assign (a -= b)
+*=  Multiply and assign (a *= b)
+/=  Divide and assign (a /= b)
+%=  Modulus and assign (a %= b)
+
+Comparison (Relational) Operators:
+==  Equal to (a == b)
+!=  Not equal to (a != b)
+>   Greater than (a > b)
+<   Less than (a < b)
+>=  Greater than or equal to (a >= b)
+<=  Less than or equal to (a <= b)
+
+Logical Operators:
+&&  Logical AND (a && b)
+||  Logical OR (a || b)
+!   Logical NOT (!a)
+
+Bitwise Operators:
+&   Bitwise AND (a & b)
+|   Bitwise OR (a | b)
+^   Bitwise XOR (a ^ b)
+~   Bitwise NOT (~a)
+<<  Left shift (a << b)
+>>  Right shift (a >> b)
+>>> Unsigned right shift (a >>> b)
+
+Ternary Operator:
+? : Conditional (a > b ? x : y)
+
+Instanceof Operator:
+instanceof  Checks if object is instance of class (obj instanceof ClassName)
+
+Type Cast Operator:
+(type)  Converts data type ((int) a)
+
+Other Operators:
+.   Member access (obj.method)
+[]  Array access (arr[0])
+()  Method call or precedence
+new Creates new object (new ClassName())
+
+Operator Precedence and Associativity in Java:
+
+Highest to Lowest Precedence:
+
+1. ()           Parentheses (expression grouping)         Left to Right
+2. []           Array access                              Left to Right
+   .            Member access                             Left to Right
+   ()           Method call                               Left to Right
+3. ++, --       Post-increment, Post-decrement            Left to Right
+4. ++, --, +, - Unary plus, minus, pre-increment,         Right to Left
+   ~, !         bitwise NOT, logical NOT
+   (type)       Type cast
+   new          Object creation
+5. *, /, %      Multiplication, division, modulus         Left to Right
+6. +, -         Addition, subtraction                     Left to Right
+7. <<, >>, >>>  Bitwise shift operators                   Left to Right
+8. <, <=, >, >= Relational operators                      Left to Right
+   instanceof   Type comparison
+9. ==, !=       Equality operators                        Left to Right
+10. &           Bitwise AND                               Left to Right
+11. ^           Bitwise XOR                               Left to Right
+12. |           Bitwise OR                                Left to Right
+13. &&          Logical AND                               Left to Right
+14. ||          Logical OR                                Left to Right
+15. ?:          Ternary (conditional)                     Right to Left
+16. =, +=, -=,  Assignment operators                      Right to Left
+    *=, /=, %=,
+    &=, ^=, |=,
+    <<=, >>=, >>>=
+
+Note:
+- Operators with higher precedence are evaluated before lower precedence.
+- If operators have the same precedence, associativity determines the order (left-to-right or right-to-left).

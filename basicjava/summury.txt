@@ -1,0 +1,41 @@
+public:  
+- An access modifier.  
+- Means the class or method is accessible from anywhere in the program.
+
+class:  
+- Used to declare a class, which is a blueprint for objects.
+
+static:  
+- Means the method or variable belongs to the class, not to any specific object.  
+- Only one copy exists in memory, shared by all objects of the class.  
+- Helps save memory because static members are loaded once when the class is loaded.  
+- The main method must be static so it can be run without creating an object.
+void:  
+- The return type of a method.  
+- Means the method does not return any value.
+
+main:  
+- The entry point of any Java program.  
+- The Java Virtual Machine (JVM) looks for this method to start execution.
+
+String[] args:  
+- An array of Strings passed as command-line arguments to the program.
+
+System.out.println:
+- Used to print text or values to the console (output screen).
+- `System` is a built-in Java class.
+- `out` is a static member of `System` class, representing the standard output stream.
+- `println` is a method that prints the given message and moves the cursor to a new line.
+
+variable :
+- variable is memory location name that we provide
+
+
+Data types
+
+primitive datatypes:
+ - its hold single value and built in java
+
+non primitive datatypes :
+- its made with help with primitive
+-user define

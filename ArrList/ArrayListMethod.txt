@@ -1,0 +1,56 @@
+
+
+add(element)
+Adds an element to the end of the ArrayList.
+Example: list.add("Apple");
+
+add(index, element)
+Inserts an element at the specified position.
+Example: list.add(1, "Banana");
+
+get(index)
+Returns the element at the specified index.
+Example: String fruit = list.get(0);
+
+set(index, element)
+Replaces the element at the specified index with the given element.
+Example: list.set(2, "Grapes");
+
+remove(index)
+Removes the element at the specified index.
+Example: list.remove(1);
+
+remove(Object)
+Removes the first occurrence of the specified element.
+Example: list.remove("Apple");
+
+size()
+Returns the number of elements in the ArrayList.
+Example: int n = list.size();
+
+contains(element)
+Checks if the ArrayList contains the specified element.
+Example: list.contains("Banana");
+
+isEmpty()
+Checks if the ArrayList is empty.
+Example: list.isEmpty();
+
+clear()
+Removes all elements from the ArrayList.
+Example: list.clear();
+
+
+Java Collections (in code)
+For Java, the Collections class provides utility methods for working with collections like ArrayList.
+Some common methods:
+
+Collections.sort(list) – Sorts the list.
+Collections.reverse(list) – Reverses the order of the list.
+Collections.shuffle(list) – Randomly shuffles the list.
+Collections.max(list) – Returns the maximum element.
+Collections.min(list) – Returns the minimum element.
+You can use these methods as shown in your code:
+
+Let me know if you want more details or examples!
+

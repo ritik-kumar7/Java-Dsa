@@ -1,0 +1,29 @@
+🔷 1. Class (क्लास)
+✅ Definition:
+Java me class ek design ya blueprint hoti hai. Isme aap variables (properties) aur methods (kaam karne wale functions) define karte ho.
+
+Ek class bataati hai ki kisi object me kya data hoga aur wo kya kaam karega.
+
+🔷 2. Object (ऑब्जेक्ट)
+✅ Definition:
+Object class ka real-world version (instance) hota hai. Class to sirf design hoti hai, lekin jab hum us class ke base par kuch banaate hain, use hi object kehte hain.
+
+
+🔷 3. Access Modifiers (एक्सेस मॉडिफायर्स)
+✅ Definition:
+Access modifiers decide karte hain ki kaunsa data/method class ke bahar se access kiya ja sakta hai aur kaun nahi.
+Ye aapke code ki security aur encapsulation me madad karte hain.
+
+📊 4 Types of Access Modifiers in Java:
+Access Modifier	Kahaan se Access Allowed Hai?
+public	Sabhi jagah se – kisi bhi class, kisi bhi package se
+private	Sirf usi class ke andar jahan define kiya gaya
+protected	Same package + different package ke subclass (child class)
+(default)	Sirf same package ke classes me (agar koi modifier nahi likha ho)
+
+
+💡 What is OOPs?
+OOPs (Object-Oriented Programming System) ek programming approach hai jisme objects aur classes ka use hota hai real-world concepts (jaise car, person, bank account) ko program mein model karne ke liye.
+
+Java, C++, Python jaise languages OOPs support karti hain.
+

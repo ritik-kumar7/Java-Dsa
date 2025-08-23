@@ -1,0 +1,3 @@
+input :
+-use scanner class for take input from user 
+- its include in java.util package
