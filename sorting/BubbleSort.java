@@ -4,7 +4,7 @@ package Sorting;
 public class BubbleSort{
 
     // Function to print array
-    static void printArray(int arr[]) {
+  public  static void printArray(int arr[]) {
         for (int value : arr) {
             System.out.print(value + " ");
         }
